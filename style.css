@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 0 0 8px gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+form input{
+    width: 70%;
+    padding: 0.5rem;
+}
+form button{
+    width: 30%;
+    padding: 0.5rem;
+}
+.list{
+    max-width: 500px;
+    margin: 20px auto;
+    list-style: none;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px blue;
+}
+.list li{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    box-shadow: 0 0 5px black;
+    padding: 1rem;
+    border-radius: 8px;
+}
